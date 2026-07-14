@@ -1,0 +1,43 @@
+# Build output
+build/
+build-*/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Object files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+
+# CMake temporary
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# Compiled artifacts
+*.out
+*.app
+
+# Debug temp files
+_err*.txt
+*_err*.txt
+gauge_err.txt
+build_errors.txt
+nul
